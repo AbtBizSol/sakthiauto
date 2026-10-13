@@ -1,0 +1,116 @@
+# ============================================================
+# Sakthi Auto Component Limited – Apache .htaccess
+# Security hardening for XAMPP / shared Apache hosting
+# ============================================================
+
+Options -Indexes
+ServerSignature Off
+
+# --- Prevent access to backup / sensitive files ---
+<FilesMatch "\.(bak|orig|sql|log|conf|ini|ps1|sh|inc|psd|fla|ai)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^(web\.config|\.htaccess|\.env|batch_fix\.ps1|fix_og\.ps1)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# --- MIME type sniffing protection ---
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+
+    # --- Clickjacking protection ---
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # --- Referrer policy ---
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # --- Permissions policy ---
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=()"
+
+    # --- HSTS – enable only after confirming HTTPS is correctly configured ---
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+    # -------------------------------------------------------------------
+    # Content-Security-Policy (Report-Only – safe starting mode)
+    # Allows all current legitimate sources:
+    #   - Local assets (self)
+    #   - Google Tag Manager, Google Analytics, Google Fonts
+    #   - YouTube embeds
+    #   - Bootstrap / jQuery CDNs
+    #   - Translate widget
+    #   - Inline scripts required by ASP.NET WebForms postbacks
+    # -------------------------------------------------------------------
+    Header always set Content-Security-Policy-Report-Only " \
+        default-src 'self'; \
+        script-src 'self' 'unsafe-inline' \
+            https://www.googletagmanager.com \
+            https://www.google-analytics.com \
+            https://www.gstatic.com \
+            https://translate.googleapis.com \
+            https://cdn.jsdelivr.net \
+            https://cdnjs.cloudflare.com \
+            https://stackpath.bootstrapcdn.com \
+            https://code.jquery.com; \
+        style-src 'self' 'unsafe-inline' \
+            https://fonts.googleapis.com \
+            https://cdn.jsdelivr.net \
+            https://cdnjs.cloudflare.com \
+            https://stackpath.bootstrapcdn.com; \
+        font-src 'self' \
+            https://fonts.gstatic.com \
+            https://cdnjs.cloudflare.com \
+            data:; \
+        img-src 'self' data: \
+            https://www.google-analytics.com \
+            https://www.googletagmanager.com \
+            https://sakthiauto.com \
+            https://www.sakthiauto.com; \
+        frame-src \
+            https://www.youtube.com \
+            https://www.youtube-nocookie.com \
+            https://www.google.com; \
+        connect-src 'self' \
+            https://www.google-analytics.com \
+            https://analytics.google.com \
+            https://www.googletagmanager.com; \
+        object-src 'none'; \
+        base-uri 'self'; \
+        form-action 'self'; \
+        frame-ancestors 'self'"
+</IfModule>
+
+# --- Force HTTPS redirect (enable after SSL certificate confirmed) ---
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{HTTPS} off
+#     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
+
+# --- Prevent hotlinking of images ---
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_REFERER} !^$
+    RewriteCond %{HTTP_REFERER} !^https?://(www\.)?sakthiauto\.com [NC]
+    RewriteCond %{HTTP_REFERER} !^https?://localhost [NC]
+    RewriteRule \.(jpg|jpeg|png|gif|svg|webp)$ - [F,NC]
+</IfModule>
+
+# --- Cache control for static assets ---
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg  "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png  "access plus 1 month"
+    ExpiresByType image/gif  "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType text/css   "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+# --- Gzip compression ---
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript text/xml application/xml
+</IfModule>

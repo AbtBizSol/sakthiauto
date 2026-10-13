@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vision & Mission | Sakthi Auto Component Limited</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .card img {
+      max-width: 150px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .card-content {
+      flex: 1;
+      text-align: center;
+    }
+    @media(min-width: 768px) {
+      .card {
+        flex-direction: row;
+        text-align: left;
+      }
+      .card img {
+        margin-bottom: 0;
+        margin-right: 20px;
+      }
+      .card:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+      .card:nth-child(even) img {
+        margin-right: 0;
+        margin-left: 20px;
+      }
+      .card-content {
+        text-align: left;
+      }
+    }
+        /* Hide Google Translate floating toolbar / grey ">" arrow */
+        .goog-te-banner-frame,
+        #goog-gt-tt,
+        .goog-tooltip,
+        .goog-tooltip:hover,
+        .goog-text-highlight { display: none !important; }
+        body { top: 0 !important; }
+        .skiptranslate iframe { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Vision & Mission</h1>
+    
+    <div class="card">
+      <img src="images/vision.png" alt="Vision Icon">
+      <div class="card-content">
+        <h2>Vision</h2>
+        <p>To be a progressive and class-leading company in providing safety-critical components to the industry.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/mission.png" alt="Mission Icon">
+      <div class="card-content">
+        <h2>Mission</h2>
+        <ul>
+          <li>To optimise and continuously innovate our processes.</li>
+          <li>To make sure our progress is sustainable.</li>
+          <li>To make sure we are the company of choice for our customers.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

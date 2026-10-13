@@ -1,0 +1,1383 @@
+.main-menu ul li a {
+    text-transform: capitalize;
+}
+
+.wed-logo h1 {
+    text-align: left;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid #000;
+    padding: 6px 20px;
+    margin: 0px 0px 0 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.inner-head h1 {
+    text-transform: uppercase;
+}
+
+section.banner .owl-dots span {
+    background: #eae5e5;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+section.banner .owl-dots .active span {
+    background: #ff7b21!important;
+}
+
+section.banner .owl-dots button {
+    box-shadow: inherit!important;
+    outline: 0;
+}
+
+section.banner .owl-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-menu {
+    float: right;
+    width: 89%;
+    padding-top: 0;
+}
+
+.banner-content {
+    background: #3a3a3a;
+    padding: 30px;
+    width: 550px;
+    right: 50px;
+}
+
+.banner-content h1, .banner-content .banner__Title {
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    position: relative;
+    padding: 32px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.banner-content h1:before, .banner-content .banner__Title:before {
+    content: "";
+    background: #ff7b21;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 13px;
+}
+
+section.al-cating-about-us {
+    padding: 70px 0;
+    background: #494949;
+}
+
+.home-about-al h1, .home-about-al .overview__Title {
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 990px) {
+    .home-about-al .overview__Title {
+        font-size: 28px;
+    }
+}
+
+.home-about-al h2 {
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 32px;
+}
+
+.home-about-al p {
+    font-size: 16px;
+    margin: 30px 0;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    line-height: 28px;
+}
+
+.home-about-al {
+    padding: 0px 80px 0 0;
+}
+
+.key-fects li h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.key-fects li h5 {
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+	color:#fff;
+}
+
+.key-fects li h5 strong {
+    font-weight: normal;
+}
+
+.key-fects li {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+}
+
+.comman-head h2 {
+    color: #ff7b21;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.comman-head h6 {
+    color: #fff;
+    font-size: 16px;
+    font-family:'Barlow', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-description {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-family:'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+section.home-products {
+    margin-bottom: 50px;
+}
+
+.view-all a {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.view-all a:after {
+    width: 33px;
+    height: 33px;
+    content: "";
+    background: url(../images/plus.png);
+    display: block;
+    border: 1px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: -52px;
+    top: -4px;
+}
+
+.view-all {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.view-all a:hover {
+    color: #ff7b21;
+}
+
+.view-all a:hover:after {
+    background: #ff7b21 url(../images/plus-hover.png);
+    border-color: #ff7b21;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.capabilities_tab .nav-tabs {
+    display: none;
+}
+
+.about-tab.col-md-12 .card {
+    border: 0px;
+    margin-top: 30px;
+}
+
+.about-tab .nav-tabs {
+    display: none;
+}
+
+.about-tab .nav-tabs {
+    border-bottom: none;
+}
+
+.about-tab {
+    margin-top: 50px;
+}
+
+.about-tab .nav-tabs .nav-link {
+    background: transparent;
+    border-radius: 0px;
+    color: #737373;
+    font-size: 18px;
+    border: none;
+    padding: 0px 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+
+.about-tab .nav-tabs .nav-item {
+    border-right: 1px solid #041e4f;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.about-tab .nav-tabs .nav-item:last-child {
+    border: none;
+}
+
+.about-tab .nav-tabs .nav-item.show .nav-link, .about-tab .nav-tabs .nav-link.active {
+    color: #041e4f;
+    font-weight: 600;
+}
+
+.about-tab .nav-tabs .nav-item {
+    margin: 0px 0px;
+}
+
+@media (min-width: 768px) {
+    .about-tab .nav-tabs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-tab .card .card-header, .industry-service .card .card-header {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .card-header {
+        display: none;
+    }
+
+    .capabilities_tab .nav-tabs {
+        display: flex;
+        padding-left: 0;
+        border-bottom: 0px solid #EBEBEB;
+        margin: 18px auto;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        position: absolute;
+        z-index: 999;
+    }
+
+    .capabilities_tab .card {
+        border: none;
+        background: none;
+    }
+
+    .capabilities_tab .card .card-header {
+        display: none;
+    }
+
+    .capabilities_tab .card .collapse {
+        display: block;
+        background: none;
+    }
+
+    .maufacturing-panel-3 .card .collapse {
+        display: block;
+        background: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .capabilities_tab .tab-content > .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+}
+
+.capabilities_tab li.nav-item a {
+    border: 0;
+    padding: 0;
+    color: black;
+    padding: 0 5px;
+    margin: 0 7px;
+}
+
+.capabilities_tab .nav-tabs li.nav-item {
+    width: auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.capabilities_tab .nav-tabs .nav-link {
+    border-bottom: solid 2px transparent;
+    border-right: solid 0px #EEEEEE;
+    padding-bottom: 0px;
+    position: relative;
+    border-radius: 0;
+    color: #FFFF;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+.capabilities_tab .nav-tabs .nav-link.active {
+    color: #FFFFFF;
+}
+
+.capabilities_tab .nav-tabs .nav-link:hover {
+    color:#FF9100;
+}
+
+.capabilities_tab .nav-tabs .nav-link.active:after {
+    position: absolute;
+    content: '';
+    border-bottom: solid 4px #ff7b21;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -15px;
+}
+
+.capabilities_tab .nav-tabs .nav-link.active:after:hover {
+    position: absolute;
+    content: '';
+    border-bottom: solid 4px #BB2026;
+    color: #BB2026;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -20px;
+}
+
+.capabilities_tab {
+    padding: 0 70px 0px;
+}
+
+.capabilities_tab .card-body {
+    background: none;
+}
+
+.design-develop-content h2 {
+    font-size: 30px;
+    padding-top: 70px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.blue-bg-content {
+    background: #FF9100;
+    padding: 35px;
+    position: relative;
+    width: 500px;
+    z-index: 9;
+    bottom: -28px;
+    left: -58px;
+    top: 90px;
+}
+
+.blue-bg-content p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+}
+
+.design-develop-content .read-more a {
+    background: url(../images/plus-hover.png) no-repeat;
+    background-position: center;
+}
+
+.design-develop-content .read-more a:hover {
+    background: #fb9c01 url(../images/plus-hover.png) no-repeat;
+    background-position: center;
+}
+
+.blue-box {
+    background: #041e4f;
+}
+
+section.in-the-news {
+    padding-bottom: 80px;
+}
+
+.news-1.blue-box .read-more a {
+    background: url(../images/plus-hover.png) no-repeat;
+    background-position: center;
+}
+
+.news-1.blue-box .read-more a:hover {
+    background: #fb9c01 url(../images/plus-hover.png)no-repeat;
+    background-position: center;
+}
+
+section.clients {
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+section.clients .owl-dots .owl-dot span {
+    background: none;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 1px solid #AEAEAE;
+}
+
+.owl-dots {
+    text-align: center;
+    margin: 25px 0 50px;
+}
+
+button.owl-dot {
+    outline: 0;
+    box-shadow: inherit!Important;
+}
+
+.owl-dots button.owl-dot.active span {
+    background: #AEAEAE;
+}
+
+.footer-detail .tel-phone a {
+    font-family:'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+.subscribe {
+    display: flex;
+    position: relative;
+    top: -40px;
+    margin-bottom: 30px;
+}
+
+footer.footer ul {
+    margin-bottom: 29px;
+}
+
+.capabilities_tab:before {
+    content: "";
+    background: #494949;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+.item.banner2 .banner-content {
+    left: 50px;
+    width: 500px;
+}
+
+.about-division-panel-1 {
+    background: #fff;
+    padding: 0;
+    top: 50px;
+    position: relative;
+}
+
+.about-division-panel-1 .col-md-4 {
+    background: #494949;
+    padding: 62px;
+}
+
+.about-division-panel-1 .col-md-8 {
+    padding: 50px;
+	background: #494949;
+}
+
+.about-content p {
+    color: #fff;
+    font-family:'Barlow', sans-serif;
+    padding: 30px 0;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-key-fact h3 {
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.about-key-fact h5 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.about-key-fact ul li {
+    margin: 0 0px 40px;
+    border-left: 1px solid #fff;
+    padding-left: 28px;
+}
+
+section.group-factory {
+    position: relative;
+    top: -56px;
+    margin-bottom: 50px;
+}
+
+.factory-detail {
+    background: #fff;
+    padding: 50px;
+}
+
+.buliding-pic img {
+    display: none;
+}
+
+.factosy-box p {
+    color: #737373;
+    font-family:'Barlow', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.buliding-pic {
+    background: url(../images/building-pic.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.factory-title {
+    background: #000;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin-top: -63px;
+    padding: 10px 30px;
+    color: #fff;
+    font-family:'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+section.about-3 {
+    background: url(../images/about-section-3.jpg) no-repeat;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content3 {
+    width: 480px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    position: relative;
+    padding: 130px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 37px;
+}
+
+.manufacturing-panel {
+    background: rgb(243,243,243);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%,rgba(243,243,243,1) 50%);
+}
+
+.manufacturing-data h2 {
+    color: #041e4f;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.manufacturing-data h5 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+
+.manufacturing-data {
+    border-left: 1px solid #ddd;
+    padding-left: 35px;
+    margin: 25px 25px 60px;
+}
+
+.manufact-box2 {
+    background: #fff;
+    padding: 30px 30px;
+}
+
+.manufact-box2 h3 {
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 20px;
+    color: #708090;
+}
+
+.mafact-box p {
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    line-height: 28px;
+    color: #737373;
+}
+
+.mafact-box .img-panel {
+    margin-bottom: 30px;
+}
+
+.manfact-tab ul {
+    background: #333;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    max-width: 1200px;
+    margin: auto;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+}
+
+.maufacturing-panel-3 {
+    position: relative;
+    padding-top: 185px;
+    background: #fff;
+}
+
+.nav-tabs .nav-link {
+    background: none;
+    border: 0px;
+    color: #cfcfcf;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.nav-tabs .nav-link.active {
+    background: none;
+    color: #fff;
+}
+
+.manfact-tab ul li {
+    padding: 0 32px;
+    margin: 0px;
+}
+
+.facts-1 {
+    width: 600px;
+    background: #fff;
+    padding: 50px;
+    position: absolute;
+    top: -180px;
+}
+
+.facts-1 h2 {
+    color: #708090;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 30px;
+}
+
+.facts-1 p {
+    font-size: 16px;
+    font-family:'Barlow', sans-serif;
+    color: #737373;
+    line-height: 30px;
+}
+
+.maufacturing-panel-3 .tab-content>.active {
+    border: 0px;
+}
+
+.mafact-card-body img {
+    width: 100%;
+}
+
+.maufacturing-panel-4 {
+    padding: 100px 70px 100px;
+}
+
+.gavity-die h2 {
+    color: #708090;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 30px;
+}
+
+.gavity-die p {
+    color: #737373;
+    font-size: 14px;
+    font-family:'Barlow', sans-serif;
+    font-weight: 100;
+}
+
+.gavity-die h3 {
+    color: #000;
+    font-size: 22px;
+    font-family: 'Barlow', sans-serif;
+    padding: 30px 0 20px;
+    font-weight: bold;
+}
+
+.gavity-die ul li {
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 4px 20px;
+    background-position: 1px 12px;
+    font-family: 'Barlow', sans-serif;
+    color: #737373;
+}
+
+.gavity-die ul li:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #041e4f;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.yellow-box {
+    background: #051f50;
+    padding: 50px;
+    position: relative;
+    left: -17px;
+    z-index: 9;
+    width: 560px;
+    bottom: -42px;
+    z-index: 1;
+}
+
+.yellow-box h4 {
+    color: #fff;
+    padding-bottom: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.yellow-box ul li {
+    position: relative;
+    color: #fff;
+    padding: 4px 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.yellow-box ul li:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.yellow-box ul {
+    margin-left: 0;
+}
+
+.gavity-die {
+    padding: 0 30px;
+}
+
+.Machining h2 {
+    color: #708090;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 30px;
+}
+
+.Machining p {
+    font-family:'Barlow', sans-serif;
+    color: #737373;
+}
+
+.Machining {
+    padding: 0 50px;
+}
+
+.maufacturing-panel-5 {
+    padding: 30px 0 90px;
+}
+
+.products-panel {
+    background: #494949;
+}
+
+.product-sidebar ul li a {
+    font-size: 16px;
+    padding: 10px 0;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    line-height: 28px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin: 0px;
+}
+
+.product-box {
+    padding: 15px;
+}
+
+.product-sidebar ul li a:hover {
+    color: #FF9100;
+}
+
+.product-section-detail .col-md-6 {
+    margin-bottom: 25px;
+}
+
+.product-section-detail {
+    padding-left: 20px;
+}
+
+.product-section-detail .col-md-6 {
+    margin-bottom: 25px;
+}
+
+.product-section-detail h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 10px 0px 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.enginering-panel {
+    background: rgb(243,243,243);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%,rgba(243,243,243,1) 50%);
+}
+
+.engineering-detail {
+    padding: 0 40px;
+}
+
+.engineering-detail p {
+    font-size: 16px;
+    padding: 0 0 20px;
+    color: #737373;
+    line-height: 28px;
+    display: block;
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.engineering-box {
+    padding: 30px;
+}
+
+.engineering-box blockquote {
+    margin-bottom: 40px;
+}
+
+.engineering-box h4 {
+    margin: 60px 0;
+    font-size: 28px;
+    font-family: 'Barlow', sans-serif;
+    color: #3D3D3D;
+    line-height: 38px;
+    padding-right: 40px;
+}
+
+.design-software h5 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.quality-box p {
+    font-size: 16px;
+    padding: 0 0 20px;
+    color: #737373;
+    line-height: 28px;
+    display: block;
+    margin: 0px;
+    font-family:'Barlow', sans-serif;
+}
+
+.quality-box blockquote {
+    margin-bottom: 30px;
+}
+
+.quality-box {
+    padding: 30px;
+}
+
+.quality-panel {
+    background: rgb(243,243,243);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%,rgba(243,243,243,1) 50%);
+}
+
+.testing-facility {
+    padding: 50px 0;
+}
+
+.testing-facility h3 {
+    color: #708090;
+    font-size: 24px;
+    margin: 10px 0px 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.testing-facility p {
+    margin-bottom: 30px;
+}
+
+.testing-facility .img-panel {
+    height: inherit;
+}
+
+.qulity-listing ul li {
+    position: relative;
+    padding: 9px 30px;
+    font-family: 'Barlow', sans-serif;
+    color: #737373;
+    font-size: 16px;
+    background-position: 0px;
+}
+
+.qulity-listing ul li:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #041e4f;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 18px;
+}
+
+.qulity-listing {
+    padding: 70px 50px;
+}
+
+.qulity-listing h5 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 20px;
+    color: #000;
+    line-height: 28px;
+    display: block;
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.quality-pic-5 {
+    margin-top: 30px;
+    position: relative;
+}
+
+.quality-pic-5:before {
+    content: "";
+    background: #fb9c01;
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -207%;
+}
+
+.quality-pic-5:after {
+    content: "";
+    background: #000;
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -310%;
+}
+
+.qulity-listing ul {
+    margin-bottom: 142px;
+}
+
+.qulity-listing h6 {
+    color: #708090;
+    font-size: 24px;
+    margin: 10px 0px 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.quality-pic-6 {
+    margin-top: 30px;
+}
+
+.qulity-listing p {
+    font-family: 'Barlow', sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin: 0px;
+}
+
+.engineering-detail p strong {
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+.engineering-detail ul li {
+    position: relative;
+    padding: 9px 30px;
+    font-family: 'Barlow', sans-serif;
+    color: #737373;
+    font-size: 16px;
+    background-position: 0px;
+}
+
+.engineering-detail ul li:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #041e4f;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 18px;
+}
+
+.our-client .col-md-3 {
+    display: block;
+}
+
+.contact-detail {
+    background: #494949;
+    background:#494949;
+}
+
+.caparo-contact h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-box {
+    padding: 30px;
+}
+
+.contact-info p {
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+    line-height: 28px;
+    padding-right: 0;
+    font-size: 14px;
+}
+
+.contact-info h4 {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.products-panel {
+    color: #fff;
+}
+
+.contact-info p a:hover {
+    color: #fff;
+}
+
+.form-group-box .form-control {
+    border: 0px;
+    border-bottom: 1px solid #B9B9B9;
+    border-radius: 0px;
+    padding: 20px;
+}
+
+.form-group-box .form-control::placeholder {
+    color: #B9B9B9;
+    font-weight: normal;
+}
+
+.form-group-box .form-control {
+    margin-bottom: 30px;
+    font-family:'Barlow', sans-serif;
+}
+
+.form-group-box h5 {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+textarea#Message {
+    margin-top: 30px;
+}
+
+.caparo-contact .col-md-6 {
+    margin-bottom: 30px;
+}
+
+button.btn.btn-mt {
+    background: #d13730;
+    border-radius: 0px;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 16px;
+}
+
+.contact-form {
+    
+    padding: 30px 30px;
+}
+
+.product-sidebar li.active a {
+    color: #FFFFFF;
+}
+
+footer.footer .subscribe a {
+    border: 0px;
+    background: none;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 20px 0 20px;
+    border-right: 1px solid #fff;
+    padding-right: 24px;
+    padding-top: 9px;
+}
+
+.subscribe input[type="text"] {
+    max-width: 70%;
+}
+
+input.btn.btn-mt {
+    background: #ff9100;
+    border-radius: 0px;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 16px;
+}
+
+footer.footer h5 a {
+    color: #FFF;
+}
+
+
+
+/* =========================================================
+   Plant & Machinery — UI Enhancement & Responsive Styling
+   ========================================================= */
+
+/* Top Category Tabs (inner-menu) */
+.inner-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 25px;
+    padding-left: 0;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.inner-menu ul li {
+    margin-right: 0;
+}
+
+.inner-menu ul li a {
+    font-weight: 600;
+    color: #e0e0e0;
+    font-family: 'Barlow', 'Circular Std Book', sans-serif;
+    font-size: 16px;
+    padding-bottom: 6px;
+    display: inline-block;
+    transition: all 0.25s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.inner-menu ul li a:hover {
+    color: #ff7b21;
+}
+
+.inner-menu ul li.active a,
+.inner-menu li.active a {
+    color: #ff7b21 !important;
+    border-bottom: 2px solid #ff7b21 !important;
+    font-weight: 700;
+}
+
+/* Page Header in inner-title */
+.inner-head h1 {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Barlow', 'Circular Std', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.inner-title p {
+    color: #e0e0e0;
+    line-height: 1.7;
+    max-width: 1100px;
+}
+
+/* Equipment Sidebar */
+.product-sidebar {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.product-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-sidebar ul li {
+    margin-bottom: 4px;
+}
+
+.product-sidebar ul li a {
+    font-size: 15px;
+    padding: 10px 14px;
+    color: #d1d1d1;
+    font-family: 'Barlow', sans-serif;
+    line-height: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    display: block;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.product-sidebar ul li a:hover {
+    color: #ff7b21;
+    background: rgba(255, 123, 33, 0.08);
+    padding-left: 18px;
+}
+
+.product-sidebar li.active a,
+.product-sidebar ul li.active a {
+    color: #ff7b21 !important;
+    background: rgba(255, 123, 33, 0.15) !important;
+    font-weight: 600;
+    border-left: 3px solid #ff7b21 !important;
+    padding-left: 15px;
+    border-bottom: 1px solid rgba(255, 123, 33, 0.2);
+}
+
+/* Equipment Details Area */
+.product-section-detail {
+    padding-left: 20px;
+}
+
+.product-section-detail h2 {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    margin: 0 0 25px 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.product-section-detail .home-product-list {
+    margin-bottom: 20px;
+}
+
+/* Image container override */
+.product-section-detail .home-product-list .img-panel {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #2a2a2a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.product-section-detail .home-product-list .img-panel img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 480px;
+    object-fit: contain;
+    background-color: #222;
+    display: block;
+    border: none;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.product-section-detail .home-product-list .img-panel:hover img {
+    transform: scale(1.03);
+}
+
+/* Text descriptions */
+.product-section-detail .home-product-list .img-panel p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #e5e5e5;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .product-section-detail {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+    .inner-menu ul {
+        gap: 10px 18px;
+    }
+    .inner-menu ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .product-sidebar {
+        margin-bottom: 30px;
+        max-height: 320px;
+        overflow-y: auto;
+    }
+    .inner-head h1 {
+        font-size: 26px;
+    }
+    .product-section-detail h2 {
+        font-size: 22px;
+    }
+    .product-section-detail .col-md-6 {
+        margin-bottom: 20px;
+    }
+    .white-bg {
+        padding: 25px 15px;
+    }
+}

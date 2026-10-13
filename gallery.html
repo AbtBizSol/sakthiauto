@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery | Sakthi Auto Component Limited</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <style>
+    body {
+      background-color: #494949;
+      color: #fff;
+    }
+
+    .nav-tabs .nav-link {
+      color: #ff9100;
+      border: 1px solid #ff9100;
+      margin-right: 5px;
+      border-radius: 5px;
+      font-weight:bold;
+    }
+
+    .nav-tabs .nav-link.active {
+      background-color: #ff9100;
+      color:  #fff;
+    }
+
+    .tab-content img {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .tab-content img:hover {
+      transform: scale(1.03);
+    }
+
+    .modal-content {
+      background: transparent;
+      border: none;
+      animation: zoomIn 0.3s ease;
+    }
+
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .modal-body {
+      padding: 0;
+      text-align: center;
+      position: relative;
+    }
+
+    .modal-body img {
+      width: 100%;
+      max-width: 80%;
+      height: auto;
+      border-radius: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .modal-content .btn-close {
+      z-index: 1057;
+    }
+
+    .btn-close-white {
+      filter: invert(1);
+    }
+
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: white;
+      font-size: 2rem;
+      padding: 0 15px;
+      z-index: 1056;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .nav-btn:hover {
+      background: rgba(0, 0, 0, 0.7);
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    .prev-btn {
+      left: 0;
+    }
+
+    .next-btn {
+      right: 0;
+    }
+
+    @media (max-width: 767.98px) {
+      .modal-body img {
+        max-width: 100%;
+      }
+    }
+        /* Hide Google Translate floating toolbar / grey ">" arrow */
+        .goog-te-banner-frame,
+        #goog-gt-tt,
+        .goog-tooltip,
+        .goog-tooltip:hover,
+        .goog-text-highlight { display: none !important; }
+        body { top: 0 !important; }
+        .skiptranslate iframe { display: none !important; }
+  </style>
+</head>
+<body>
+
+<div class="container py-5">
+  <ul class="nav nav-tabs justify-content-center flex-wrap" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#awards" type="button" role="tab">Awards </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" data-bs-toggle="tab" data-bs-target="#connect2024" type="button" role="tab">Sakthi Connect 2024 Event</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" data-bs-toggle="tab" data-bs-target="#pongal" type="button" role="tab">Pongal Event</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" data-bs-toggle="tab" data-bs-target="#connect2025" type="button" role="tab">Sakthi Connect 2025 Event</button>
+    </li>
+    <!--<li class="nav-item" role="presentation">
+      <button class="nav-link" data-bs-toggle="tab" data-bs-target="#video" type="button" role="tab">1 Year Journey – Video</button>
+    </li>-->
+  </ul>
+
+  <div class="tab-content pt-4">
+    <div class="tab-pane fade show active" id="awards" role="tabpanel">
+          <!-- Awards 2024 -->
+                     <h3 style="text-align:center">Awards - 2024</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img src="images\awards\2024\ILJIN_Outstanding Award_2024.JPG" alt="Award 1" class="img-popup" data-bs-image="images\awards\2024\ILJIN_Outstanding Award_2024.JPG">
+        </div>
+        <div class="col">
+          <img src="images\awards\2024\ILJIN_SGA Award 2024.JPG" alt="Award 2" class="img-popup" data-bs-image="images\awards\2024\ILJIN_SGA Award 2024.JPG">
+        </div>
+        <div class="col">
+          <img src="images\awards\2024\MSIL_Special Support Award_2024-25.JPG" alt="Award 3" class="img-popup" data-bs-image="images\awards\2024\MSIL_Special Support Award_2024-25.JPG">
+        </div>
+         <div class="col">
+          <img src="images\awards\2024\RN_Packing cost Innovation.JPG" alt="Award 4" class="img-popup" data-bs-image="images\awards\2024\RN_Packing cost Innovation.JPG">
+        </div>
+        <div class="col">
+          <img src="images\awards\2024\RN_Packing Safety Award.JPG" alt="Award 5" class="img-popup" data-bs-image="images\awards\2024\RN_Packing Safety Award.JPG">
+        </div>
+         <div class="col">
+          <img src="images\awards\2024\Vw_Outstanding support.jpg" alt="Award 6" class="img-popup" data-bs-image="images\awards\2024\Vw_Outstanding support.jpg">
+        </div>
+
+      </div>
+      <!--Awards-2023-->
+                        <h3 style="text-align:center">Awards - 2023</h3>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img src="images/awards/2023/ILJIN_Best Quality Performance Award_2023.JPG" alt="Award 1" class="img-popup" data-bs-image="images/awards/2023/ILJIN_Best Quality Performance Award_2023.JPG">
+        </div>
+        <div class="col">
+          <img src="images/awards/2023/ILJIN_SGA Award 2023.JPG" alt="Award 2" class="img-popup" data-bs-image="images/awards/2023/ILJIN_SGA Award 2023.JPG">
+        </div>
+        <div class="col">
+          <img src="images/awards/2023/IMG_5327.JPG" alt="Award 3" class="img-popup" data-bs-image="images/awards/2023/IMG_5327.JPG">
+        </div>
+         <div class="col">
+          <img src="images\awards\2023\MSIL_Special Support Award_2023-24.JPG" alt="Award 4" class="img-popup" data-bs-image="images\awards\2023\MSIL_Special Support Award_2023-24.JPG">
+        </div>
+        <div class="col">
+          <img src="images\awards\2023\Quality Award-2023.jpg" alt="Award 5" class="img-popup" data-bs-image="images\awards\2023\Quality Award-2023.jpg">
+        </div>
+         <div class="col">
+          <img src="images\awards\2023\Toyota_RM Supplier of the Year 2023.JPG" alt="Award 6" class="img-popup" data-bs-image="images\awards\2023\Toyota_RM Supplier of the Year 2023.JPG">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Sakthi Connect 2024 -->
+    <div class="tab-pane fade" id="connect2024" role="tabpanel">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img src="images\sakthi_connect 24\IMG_9975.JPG" alt="Connect 2024 - 1" class="img-popup" data-bs-image="images\sakthi_connect 24\IMG_9975.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect 24\IMG_9948.JPG" alt="Connect 2024 - 2" class="img-popup" data-bs-image="images\sakthi_connect 24\IMG_9948.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\IMG_9969.JPG" alt="Connect 2024 - 3" class="img-popup" data-bs-image="images\sakthi_connect 24\IMG_9969.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\IMG_0020.JPG" alt="Connect 2024 - 4" class="img-popup" data-bs-image="images\sakthi_connect 24\IMG_0020.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\601026.JPG" alt="Connect 2024 - 5" class="img-popup" data-bs-image="images\sakthi_connect 24\601026.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600708.JPG" alt="Connect 2024 - 6" class="img-popup" data-bs-image="images\sakthi_connect 24\600708.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600604 (2).JPG" alt="Connect 2024 - 7" class="img-popup" data-bs-image="images\sakthi_connect 24\600604 (2).JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600597 (2).JPG" alt="Connect 2024 - 8" class="img-popup" data-bs-image="images\sakthi_connect 24\600597 (2).JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600575 (2).JPG" alt="Connect 2024 - 9" class="img-popup" data-bs-image="images\sakthi_connect 24\600575 (2).JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600542(2).JPG" alt="Connect 2024 - 10" class="img-popup" data-bs-image="images\sakthi_connect 24\600542(2).JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600529.JPG" alt="Connect 2024 - 11" class="img-popup" data-bs-image="images\sakthi_connect 24\600529.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600514.JPG" alt="Connect 2024 - 12" class="img-popup" data-bs-image="images\sakthi_connect 24\600514.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600509 (2).JPG" alt="Connect 2024 - 13" class="img-popup" data-bs-image="images\sakthi_connect 24\600509 (2).JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600477 (2).JPG" alt="Connect 2024 - 14" class="img-popup" data-bs-image="images\sakthi_connect 24\600477 (2).JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect 24\600471 (2).JPG" alt="Connect 2024 - 15" class="img-popup" data-bs-image="images\sakthi_connect 24\600471 (2).JPG">
+        </div>
+          <div class="col">
+          <img src="images\sakthi_connect 24\600432 (2).JPG" alt="Connect 2024 - 16" class="img-popup" data-bs-image="images\sakthi_connect 24\600432 (2).JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect 24\600168.JPG" alt="Connect 2024 - 16" class="img-popup" data-bs-image="images\sakthi_connect 24\600168.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect 24\2F0A5377.JPG" alt="Connect 2024 - 16" class="img-popup" data-bs-image="images\sakthi_connect 24\2F0A5377.JPG">
+        </div>
+      </div>
+    </div>
+
+    <!-- Pongal -->
+    <div class="tab-pane fade" id="pongal" role="tabpanel">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img src="images\Pongal\IMG_6805.JPG" alt="Pongal 1" class="img-popup" data-bs-image="images\Pongal\IMG_6805.JPG">
+        </div>
+        <div class="col">
+          <img src="images\Pongal\IMG_6647.JPG" alt="Pongal 2" class="img-popup" data-bs-image="images\Pongal\IMG_6647.JPG">
+        </div>
+        <div class="col">
+          <img src="images\Pongal\IMG_6654.JPG" alt="Pongal 3" class="img-popup" data-bs-image="images\Pongal\IMG_6654.JPG">
+        </div>
+         <div class="col">
+          <img src="images\Pongal\IMG_6667.JPG" alt="Pongal 4" class="img-popup" data-bs-image="images\Pongal\IMG_6667.JPG">
+        </div>
+        <div class="col">
+          <img src="images\Pongal\IMG_6745.JPG" alt="Pongal 5" class="img-popup" data-bs-image="images\Pongal\IMG_6745.JPG">
+        </div>
+        <div class="col">
+          <img src="images\Pongal\IMG_6687.JPG" alt="Pongal 6" class="img-popup" data-bs-image="images\Pongal\IMG_6687.JPG">
+        </div>
+        <div class="col">
+          <img src="images\Pongal\IMG_6758.JPG" alt="Pongal 7" class="img-popup" data-bs-image="images\Pongal\IMG_6758.JPG">
+        </div>
+        <div class="col">
+          <img src="images/Pongal/IMG_6534.JPG" alt="Pongal 8" class="img-popup" data-bs-image="images/Pongal/IMG_6534.JPG">
+        </div>
+        <div class="col">
+          <img src="images\Pongal\IMG_6789.JPG" alt="Pongal 9" class="img-popup" data-bs-image="images\Pongal\IMG_6789.JPG">
+        </div>
+      </div>
+    </div>
+
+    <!-- Sakthi Connect 2025 -->
+    <div class="tab-pane fade" id="connect2025" role="tabpanel">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img src="images\sakthi_connect_25\DSC07183.JPG" alt="Connect 2025 - 1" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07183.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\2G2A1996.JPG" alt="Connect 2025 - 2" class="img-popup" data-bs-image="images\sakthi_connect_25\2G2A1996.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\DSC07378.JPG" alt="Connect 2025 - 3" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07378.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\2G2A2128.JPG" alt="Connect 2025 - 4" class="img-popup" data-bs-image="images\sakthi_connect_25\2G2A2128.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\DSC07488.JPG" alt="Connect 2025 - 5" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07488.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\DSC07462.JPG" alt="Connect 2025 - 6" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07462.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\DSC07352.JPG" alt="Connect 2025 - 7" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07352.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\2G2A2179.JPG" alt="Connect 2025 - 8" class="img-popup" data-bs-image="images\sakthi_connect_25\2G2A2179.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\DSC07616.JPG" alt="Connect 2025 - 9" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07616.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\IMG_0010_1.JPG" alt="Connect 2025 - 10" class="img-popup" data-bs-image="images\sakthi_connect_25\IMG_0010_1.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\IMG_0070.JPG" alt="Connect 2025 - 11" class="img-popup" data-bs-image="images\sakthi_connect_25\IMG_0070.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\IMG_0059.JPG" alt="Connect 2025 - 12" class="img-popup" data-bs-image="images\sakthi_connect_25\IMG_0059.JPG">
+        </div>
+        <div class="col">
+          <img src="images\sakthi_connect_25\DSC07621.JPG" alt="Connect 2025 - 13" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07621.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect_25\DSC07688.JPG" alt="Connect 2025 - 14" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07688.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect_25\DSC07750.JPG" alt="Connect 2025 - 15" class="img-popup" data-bs-image="images\sakthi_connect_25\DSC07750.JPG">
+        </div>
+         <div class="col">
+          <img src="images\sakthi_connect_25\IMG_0006_3.JPG" alt="Connect 2025 - 16" class="img-popup" data-bs-image="images\sakthi_connect_25\IMG_0006_3.JPG">
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Tab -->
+  <!-- <div class="tab-pane fade" id="video" role="tabpanel">
+      <div class="ratio ratio-16x9">
+<video width="100%" controls title="1 Year Journey">
+  <source src="images/1_year_journey/Event 2024 to 2025.mp4" type="video/mp4">
+</video>      
+</div>
+    </div>-->
+  </div>
+</div>
+
+<!-- Image Popup Modal -->
+<div class="modal fade" id="popupModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content position-relative bg-transparent border-0">
+      <!-- Close Button -->
+      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <!-- Prev / Next -->
+      <button class="nav-btn prev-btn" id="prevBtn">&#8249;</button>
+      <button class="nav-btn next-btn" id="nextBtn">&#8250;</button>
+      <div class="modal-body p-0">
+        <img id="popupImage" src="" class="img-fluid" alt="Popup Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap + Custom Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+  const images = Array.from(document.querySelectorAll('.img-popup'));
+  let currentIndex = -1;
+  const popupModal = new bootstrap.Modal(document.getElementById('popupModal'));
+  const popupImage = document.getElementById('popupImage');
+
+  function showImage(index) {
+    if (index >= 0 && index < images.length) {
+      currentIndex = index;
+      const src = images[currentIndex].getAttribute('data-bs-image');
+      popupImage.src = src;
+      popupModal.show();
+    }
+  }
+
+  images.forEach((img, index) => {
+    img.addEventListener('click', () => showImage(index));
+  });
+
+  document.getElementById('prevBtn').addEventListener('click', () => {
+    if (currentIndex > 0) {
+      showImage(currentIndex - 1);
+    }
+  });
+
+  document.getElementById('nextBtn').addEventListener('click', () => {
+    if (currentIndex < images.length - 1) {
+      showImage(currentIndex + 1);
+    }
+  });
+
+  // Keyboard navigation support
+  document.addEventListener('keydown', function (e) {
+    if (document.getElementById('popupModal').classList.contains('show')) {
+      if (e.key === 'ArrowLeft') {
+        document.getElementById('prevBtn').click();
+      } else if (e.key === 'ArrowRight') {
+        document.getElementById('nextBtn').click();
+      } else if (e.key === 'Escape') {
+        popupModal.hide();
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
